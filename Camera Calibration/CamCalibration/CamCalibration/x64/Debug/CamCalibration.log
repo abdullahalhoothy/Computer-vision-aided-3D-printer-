@@ -1,0 +1,13 @@
+﻿Build started 12/03/2019 5:19:26 PM.
+     1>Project "C:\Users\Rouzbeh\Dropbox\Concordia\Semesters\Winter 2019\Industrial Automation(MECH 6631)\Project\Computer vision\CamCalibration\CamCalibration\CamCalibration.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\OpenCV\3.0.0\opencv\build\include /AID:\OpenCV\3.0.0\opencv\build\x64\vc12\lib /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt CamCalibration.cpp
+         CamCalibration.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rouzbeh\Dropbox\Concordia\Semesters\Winter 2019\Industrial Automation(MECH 6631)\Project\Computer vision\CamCalibration\x64\Debug\CamCalibration.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\OpenCV\3.0.0\opencv\build\x64\vc12\lib opencv_world300d.lib opencv_world400d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Rouzbeh\Dropbox\Concordia\Semesters\Winter 2019\Industrial Automation(MECH 6631)\Project\Computer vision\CamCalibration\x64\Debug\CamCalibration.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rouzbeh\Dropbox\Concordia\Semesters\Winter 2019\Industrial Automation(MECH 6631)\Project\Computer vision\CamCalibration\x64\Debug\CamCalibration.lib" /MACHINE:X64 x64\Debug\CamCalibration.obj
+         CamCalibration.vcxproj -> C:\Users\Rouzbeh\Dropbox\Concordia\Semesters\Winter 2019\Industrial Automation(MECH 6631)\Project\Computer vision\CamCalibration\x64\Debug\CamCalibration.exe
+     1>Done Building Project "C:\Users\Rouzbeh\Dropbox\Concordia\Semesters\Winter 2019\Industrial Automation(MECH 6631)\Project\Computer vision\CamCalibration\CamCalibration\CamCalibration.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.30
