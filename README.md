@@ -1,2 +1,0 @@
-# 3dprinting
-version control

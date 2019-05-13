@@ -1,0 +1,13 @@
+float GeometricRatio(image a, image label, float distance);
+void calculate_HSVaverage(double &Hav, double &Sav, double &Vav, image &a, image &label, int nlabel, int ic, int jc);
+void HSVtoRGB(int H, double S, double V, int &R, int &G, int &B);
+int RGBcentroid(image &rgb, double &ic, double &jc, string colorName);
+void calculate_HSV(double &hue, double &sat, double &value, image &a, int ic, int jc);
+int threshold_new(image &a, image &b, int maxtvalue, int mintvalue);
+int draw_point_RGB(image &rgb, int ip, int jp, int R, int G, int B);
+void checkColor(double Hue, string &colorName);
+double object_thetaRGB(double ic, double jc, string colorName, image &rgb);
+int RGBcentroid_limitedArea(image &rgb, double &ic, double &jc, string colorName);
+void perimeter(image &rgb, double &ic, double &jc, string colorName, float GeometricRatio, double PerimeterDistance[36][2]);
+double object_radiusRGB5points(double ic, double jc, double beta, string colorName, image &rgb);
+double Shape_object_theta_RGB(double ic, double jc, string colorName, image &rgb);
